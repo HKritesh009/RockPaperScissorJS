@@ -7,7 +7,7 @@ In this game:
 - The computer generates its move randomly.
 - The winner is decided based on classic game rules.
 
-Live Demo: 👉 [Play Now](https://your-website-url-here.com)
+Live Demo: 👉 [Play Now](https://hkritesh009.github.io/RockPaperScissorJS/)
 
 ---
 
@@ -53,7 +53,7 @@ Live Demo: 👉 [Play Now](https://your-website-url-here.com)
 ---
 
 ## 🔗 Website
-Play the Game Here: https://your-website-url-here.com
+Play the Game Here: https://hkritesh009.github.io/RockPaperScissorJS/
 
 ---
 
