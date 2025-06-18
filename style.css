@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+body {
+  background-color: rgb(166, 205, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 600px;
+  height: 500px;
+  background-color: rgb(121, 224, 247);
+  border: 1px solid rgb(56, 119, 230);
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+}
+
+.cpu {
+  display: flex;
+  gap: 140px;
+}
+
+.stopclick{
+  pointer-events: none;
+}
+
+.cpuimg {
+  width: 150px;
+}
+
+.src {
+  width: 80px;
+  opacity: 0.5;
+}
+.src:hover{
+ opacity: 1;
+}
+
+
+.rotate1 {
+  transform: rotate(90deg);
+}
+
+.rotate2 {
+  transform: rotate(270deg) scaleX(-1);
+}
+
+.wave-image {
+  animation: wave 2s ease-in-out 1; /* Play once for 2s */
+  /* transform-origin: bottom center;  Rotate around bottom for natural waving */
+}
+.wave-image2 {
+  animation: wave2 2s ease-in-out 1; /* Play once for 2s */
+  /* transform-origin: bottom center;  Rotate around bottom for natural waving */
+}
+
+@keyframes wave {
+  0%   { transform: rotate(80deg); }
+  25%  { transform: rotate(100deg); }
+  50%  { transform: rotate(80deg); }
+  75%  { transform: rotate(100deg); }
+  100% { transform: rotate(80deg); }
+}
+@keyframes wave2 {
+  0%   { transform: rotate(-80deg) scaleX(-1); }
+  25%  { transform: rotate(-100deg) scaleX(-1); }
+  50%  { transform: rotate(-80deg) scaleX(-1); }
+  75%  { transform: rotate(-100deg) scaleX(-1); }
+  100% { transform: rotate(-80deg) scaleX(-1); }
+}
