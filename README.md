@@ -26,30 +26,44 @@ Live Demo: 👉 [Play Now](https://your-website-url-here.com)
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/rock-paper-scissors.git
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
 
-3.cd rock-paper-scissors
-Open the index.html file in your browser:
+3. cd rock-paper-scissors
 
-4.start index.html  # For Windows
-open index.html   # For macOS
+4. Open the index.html file in your browser:
 
-🧠 Game Rules
-Player	      Computer	      Result
-Rock	        Scissors	      Player Wins
-Rock	        Paper	          Computer Wins
-Paper	        Rock	          Player Wins
-Paper	        Scissors	      Computer Wins
-Scissors	    Paper	          Player Wins
-Scissors	    Rock	          Computer Wins
-Same Choice 	Same Choice	    Draw
+5. start index.html  # For Windows
+   open index.html   # For macOS
 
+---
 
-🔗 Website
+## 🧠 Game Rules
+
+| Player     | Computer   | Result         |
+|------------|------------|----------------|
+| Rock       | Scissors   | Player Wins    |
+| Rock       | Paper      | Computer Wins  |
+| Paper      | Rock       | Player Wins    |
+| Paper      | Scissors   | Computer Wins  |
+| Scissors   | Paper      | Player Wins    |
+| Scissors   | Rock       | Computer Wins  |
+| Same Choice| Same Choice| Draw           |
+
+---
+
+## 🔗 Website
 Play the Game Here: https://your-website-url-here.com
 
-🤝 Contributing
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+---
+
+## 🤝 Contributing
 Contributions are welcome! If you want to improve the UI, add animations, or new features:
 
 Fork the repo
@@ -62,12 +76,7 @@ Push to the branch (git push origin feature/your-feature)
 
 Open a Pull Request
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-🙌 Author
-Made with ❤️ by Your Name
-
-yaml
-Copy
-Edit
+## 🙌 Author
+Made with ❤️ by HKRitesh009
